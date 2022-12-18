@@ -1,0 +1,92 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    max-width: 1440px;
+}
+body{
+    background-image:url(../assets/bg.png) ;
+}
+.navbar{
+    font-family: montserrat;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+
+.list{
+    border-left: 1px solid #ffffff;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    position: relative;
+    right: 250px;
+    margin-top: 20px;
+    
+
+}
+.list-item{
+    list-style-type: none;
+}
+img{
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 40px;
+}
+.button-small{
+    margin-right: 50px;
+    margin-top: 10px;
+    font-family: montserrat;
+    font-size: smaller;
+    padding: 10px;
+    padding-top: -20px;
+    padding-bottom: -20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #b62bb6;
+    color: #ffffff;
+    border-radius: 7px;
+    border: 2px solid #b62bb6;
+}
+
+    .hero-heading{
+        font-family: montserrat;
+        font-size: 70px;
+        margin-left: 200px;
+        margin-right: 200px;
+        }
+        .hero{
+            color: #ffffff;
+            text-align: center;
+            margin-top: 200px;
+            
+            
+        }
+        .hero-description{
+            font-family: montserrat;
+            font-size: large;
+        }
+
+        .button-large{
+            background-color: #b62bb6;
+            color: #ffffff;
+            margin-top: 40px;
+            padding: 10px;
+           font-family: montserrat;
+           font-size: medium;
+           border-radius: 7px;
+           border: 2px solid #b62bb6;
+           
+           
+
+        }
+
+   
